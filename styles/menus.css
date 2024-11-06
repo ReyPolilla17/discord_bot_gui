@@ -1,0 +1,32 @@
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #18191c;
+}
+
+.menu-wrapper > .left-wrapper {
+    display: flex;
+}
+
+.menu-wrapper > .left-wrapper > .menu-element {
+    padding: 20px 20px;
+    transition: 0.3s;
+    margin-right: 1px;
+}
+
+.menu-wrapper > .left-wrapper > .menu-element:hover {
+    background-color: #202225;
+}
+
+.menu-wrapper > .left-wrapper > .menu-element:active {
+    background-color: #2f3136;
+}
+
+.colors {
+    color: white;
+    color: #686d73;
+    color: #2f3136;
+    color: #202225;
+    color: #18191c;
+    color: #F14346;
+}

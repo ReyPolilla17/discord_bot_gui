@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/select-menus.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/text-decorations.css">
+
+    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>This is a styling test page</h1>
+
+    <div class="select-menus-display">
+        <h2>Dropdown menus:</h2>
+        <div class="selectmenu-wrapper">
+            <div class="menu">
+                <div class="placeholder" id="extra-display">
+                    <div class="info">
+                        <div class="0"></div>
+                        <div class="text">Servidores</div>
+                    </div>
+                    
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                
+                <div class="options">
+                    <div class="option" id="c-servers" onclick="select('extra-display', 'c-servers')">
+                        <div class="info">
+                            <div class="0"></div>
+                            <div class="text">Servidores</div>
+                        </div>
+                    </div>
+    
+                    <div class="option" id="c-console" onclick="select('extra-display', 'c-console')">
+                        <div class="info">
+                            <div class="1"></div>
+                            <div class="text">Consola</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons-display">
+        <h2>Buttons</h2>
+        <div class="enabled">
+            <button type="submit" class="blue-btn">Azul</button>
+            <button type="submit" class="grey-btn">Gris</button>
+            <button type="submit" class="green-btn">Verde</button>
+            <button type="submit" class="red-btn">Rojo</button>
+        </div>
+
+        <div class="disabled">
+            <button type="submit" disabled class="blue-btn">Azul</button>
+            <button type="submit" disabled class="grey-btn">Gris</button>
+            <button type="submit" disabled class="green-btn">Verde</button>
+            <button type="submit" disabled class="red-btn">Rojo</button>
+        </div>
+    </div>
+
+    <div class="sliders-display">
+        <h2>Sliders</h2>
+        <div class="disabled">
+            <div class="text">Desactivado</div>
+            
+            <label class="switch">
+                <input type="checkbox" id="ch-dis" disabled>
+                <span class="slider"></span>
+            </label>    
+        </div>
+
+        <div class="enabled">
+            <div class="text">Activado</div>
+            
+            <label class="switch">
+                <input type="checkbox" id="ch-en">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+
+    <a href="./index.html">Página principal</a>
+</body>
+</html>

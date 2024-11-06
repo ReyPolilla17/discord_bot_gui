@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #2f3136;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #18191c;
+}
+
+.bot-wrapper > .bot-stats-wrapper::-webkit-scrollbar {
+    height: 5px;
+}
+
+.bot-wrapper > .bot-stats-wrapper::-webkit-scrollbar-thumb {
+    background-color: #202225;
+}
+
+.console > .content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.colors {
+    color: white;
+    color: #686d73;
+    color: #2f3136;
+    color: #202225;
+    color: #18191c;
+    color: #F14346;
+}
