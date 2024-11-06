@@ -4,7 +4,7 @@
   "description": "A GUI for a discord.js application to manage basic information such as servers, see permissions, commands, etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
