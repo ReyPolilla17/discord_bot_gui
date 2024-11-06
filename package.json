@@ -1,0 +1,31 @@
+{
+  "name": "discord_bot_gui",
+  "version": "1.0.0",
+  "description": "A GUI for a discord.js application to manage basic information such as servers, see permissions, commands, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReyPolilla17/discord_bot_gui.git"
+  },
+  "keywords": [
+    "GUI",
+    "discord.js",
+    "node.js",
+    "electron.js"
+  ],
+  "author": "Polilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReyPolilla17/discord_bot_gui/issues"
+  },
+  "homepage": "https://github.com/ReyPolilla17/discord_bot_gui#readme",
+  "devDependencies": {
+    "electron": "^33.1.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
